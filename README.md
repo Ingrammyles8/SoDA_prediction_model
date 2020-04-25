@@ -44,7 +44,7 @@ soc_dist_regress.py: Executes the ridge regression model, generates dataframes f
 
 soc_dist_presets.py: The logistics of the model and datasheets used in the model. Cleaning of the data was also done in this sheet. Data used includes:
 * states demographics
-* the number of cumulative COVID cases in a state on April 11th
+* the number of cumulative COVID cases in a state using CDC data
 * the SoDA scores derived by taking absolute value the mean of the percent mobility change from baseline in public areas (parks, recreation areas, retail stores, workplaces, grocery stores, pharmacies, places of transit) averaged over March 16th 2020 to April 11th. The baseline for this data was mobility trends in January and February. Vist https://www.google.com/covid19/mobility/ for more information on the mobility trend data.
 
 soc_dist_graphs.py: functions for visualizing the SoDA data per state and the mobility trends per state
