@@ -12,14 +12,20 @@ These instructions will get you a copy of the project up and running on your loc
 ## Prerequisites
 
 Python 3.3.6 and above
+R 1.1 and above
 Python Packages necessary:
 
 ```
+Python
+----
 Numpy
 Pandas
 Pathlib
 sklearn
 Matplotlib.pyplot
+R
+----
+ggplot
 ```
 
 ## TO RUN
@@ -47,8 +53,9 @@ soc_dist_presets.py: The logistics of the model and datasheets used in the model
 * the number of cumulative COVID cases in a state using CDC data
 * the SoDA scores derived by taking absolute value the mean of the percent mobility change from baseline in public areas (parks, recreation areas, retail stores, workplaces, grocery stores, pharmacies, places of transit) averaged over March 16th 2020 to April 11th. The baseline for this data was mobility trends in January and February. Vist https://www.google.com/covid19/mobility/ for more information on the mobility trend data.
 
-soc_dist_graphs.py: functions for visualizing the SoDA data per state and the mobility trends per state
+soc_dist_graphs.py: functions for visualizing the SoDA data per state, the mobility trends per state, and model performance results
 
+ridge_regression.R: functions for visualizing the beta coefficients of the single ridge regressions of each variable
 
 ## Built With
 
