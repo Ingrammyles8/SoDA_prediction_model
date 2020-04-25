@@ -1,4 +1,4 @@
-new_coef <- read.csv('/Users/ashleyzahabian/Desktop/ridge_regression_coef.csv', header = TRUE)
+new_coef <- read.csv('/dsi_cuepid_competition/outputs/ridge_regression_coef.csv', header = TRUE)
 
  # Simple horizontal bar plot with new coefficients and significance 
 
